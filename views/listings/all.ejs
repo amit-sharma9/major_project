@@ -1,0 +1,25 @@
+<% layout('./layouts/boilerplate.ejs') -%>
+
+<body>
+  <h3>ALL LISTINGS</h3>
+  <!-- <form action="/listings/new" method="get">
+        <button>ADD NEW PLACE</button>
+     </form> -->
+
+  <div class="row row-cols-lg-3 row-cols-md-2 "  >
+    <% for(data of datas) { %>
+    <a href="/listings/<%= data._id %>" class="card-link">
+      <div class="card card-style">
+        <img src="<%= data.image.url %> "   style="height: 20rem;" class="card-img-top" alt="image" />
+        <div class="card-body">
+          <p class="card-text">
+            <b><%= data.title %> </b>
+            <br />
+            &#8377; <%= data.price %>/night
+          </p>
+        </div>
+      </div>
+    </a>
+    <% } %>
+  </div>
+</body>

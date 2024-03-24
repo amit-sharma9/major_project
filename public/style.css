@@ -1,0 +1,69 @@
+.navbar{
+    /* height: 5rem; */
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.fa-compass{
+    font-size: 2.8rem;
+color: #fe424d;
+}
+
+.f-links a{
+    text-decoration: none; 
+    color: black;
+}
+.f-links a:hover{
+    text-decoration: underline; 
+  
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.f-container {
+    width: 100%;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+    margin-top: auto;
+
+}
+.card{
+    opacity: 1;
+    border: none;
+}
+.card-style:hover{
+    opacity: 0.8;
+}
+.card-link{
+    text-decoration: none;
+}
+
+.card-img-top{
+    border-radius: 1rem;
+}
+
+.btn{
+    background-color: #fe424d !important; 
+    color: white;
+}
+
+.show{
+    height: 30vh;
+}
+
+.form-control{
+    border: solid rgba(0, 0, 0, 0.804) 1px;
+}
+
+.show2{
+    height: 20vh;
+    width: 20vw;
+}
