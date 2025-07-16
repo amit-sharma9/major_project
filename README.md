@@ -10,8 +10,7 @@ Perfect for anyone seeking travel inspiration or planning their next adventure �
 
 - 🔎 **Explore destinations** with dynamic content rendering  
 - ✍️ **Leave and manage reviews** (CRUD operations)  
-- 🔐 **User authentication** for secure login and access control  
-- 📌 **Save favourite locations** for future trips  
+- 🔐 **User authentication** for secure login and access control   
 - 📱 **Responsive design** for seamless experience on all devices
 
 ---
